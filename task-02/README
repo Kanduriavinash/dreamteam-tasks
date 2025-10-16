@@ -1,1 +1,48 @@
 Google Dorking
+
+Task-01:
+What I learned:
+• Search engines like Google are much more than simple search bars—they use complex algorithms to index content from the entire internet.
+• They use special tools called crawlers or spiders that surf websites and collect information about pages, links, and keywords.
+• I understood that as a pentester or researcher, using search engines in smarter ways can reveal hidden or sensitive information online.
+
+Task-02:
+What I learned:
+• Crawlers visit a page, collect its content, and follow any links found to continue the process, just like navigating a chain reaction.
+• The information crawlers collect is stored in an index like a giant database of websites and keywords.
+• When I search for a term, the search engine checks its index and returns websites that match my keywords.
+• If a website links to another, the crawler follows and indexes the next site too, creating a map of the web.
+
+Task-03:
+What I learned:
+• SEO is a set of practices to make websites easy for search engines to understand and index, improving their rankings.
+• Things like how responsive a website is, how easy it is to crawl, and the presence of helpful files (sitemaps) all impact SEO.
+• There are online tools to check a website’s SEO score.
+
+Task-04:
+What I learned:
+• The robots.txt file, placed at the root of a site, controls which parts of a website crawlers can access or ignore.
+• It can specify access for all crawlers, or only some like Googlebot.
+• The file uses commands like Allow, Disallow, and can also specify the sitemap location.
+• This is important for hiding sensitive folders or files (e.g secret admin areas, config files) from public indexing.
+
+Task-05:
+What I learned:
+• Sitemaps are files (usually sitemap.xml) that show the structure of a website to help crawlers discover all the important pages quickly.
+• They make crawling more efficient by providing a direct map instead of leaving crawlers to guess and explore every link.
+• Having a sitemap improves the site’s SEO since search engines can index its content better.
+
+Task-06:
+What I learned:
+• Google Dorking uses advanced search operators to find specific types of information or files often missed by regular searches.
+• Useful operators include:
+-->site: — search within a particular domain
+-->filetype: — find specific file types like PDF or TXT
+-->intitle: — find pages with specific words in the title
+-->cache: — view Google’s cached copy of a page
+•These operators help in cybersecurity, bug bounty hunting, and research, by finding sensitive or hidden information that may not be intended for public view.
+
+••••>Practical Takeaways
+• I now understand the importance of proper indexing and the settings that control it.
+• I learned practical ways to both strengthen a site’s security and to responsibly use advanced search to discover available resources online.
+• This room strengthened my cybersecurity foundations, especially in the context of OSINT and web research tools.
