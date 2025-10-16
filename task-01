@@ -225,9 +225,114 @@ nc localhost 1234 ->nc sending data to local machine port 1234.
 Password:EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 ___________________________________________________________________
 
+GIT EXERCISES
 
+Exercise-01: master
 
+--> I created a new file and made my first commit.
+Commands used:
+git start --> is command similar to git init, here there will be a start.sh file in the repository which will be triggered when you type that command
+git verify --> is the submit command that you should run whenever you complete one exercise.
 
+Exercise-02: Commit one file
+
+--> Created a new file named A.txt.
+Commands used:
+git add A.txt
+git commit -m "commit A.txt file"
+git verify
+
+Exercise-03:commit-one-file-staged
+For this task, I learned how to unstage a file.
+Commands used:
+git reset -- B.txt
+git add A.txt
+git commit -m "Add A.txt only"
+
+Exercise-04:ignore-them
+I created a .gitignore file so Git would ignore unwanted files:
+gitgnore is a text file that tells Git which files and folders to ignore. This can be useful for a variety of reasons, such as ignoring temporary files, IDE-specific files, or sensitive data
+Commands used:
+git add .
+git commit -m "commit useful files"
+git verify
+
+Exercise-05 : chase-branch
+
+git merge is a command used to merge two separate branches, this can be very helpful when two developers are working on two functionalities of a product and want to combine their code into one on the main branch, git merge seamlessly does the job
+Commands used:
+git checkout chase-branch
+git merge escaped
+git verify
+
+Exercise-06 :
+
+This exercise will helped to learn git conflicts, which arises when two separate branches have made changes in the same line of a file.
+Commands used:
+git checkout merge-conflict
+git merge another-piece-of-work
+nano equation.txt
+git add equation.txt
+git commit -m "solved merge conflict"
+git verify
+
+Exercise-07 :
+
+I switched to the bugfix branch: using git switch bugfix
+Removed the buggy line in bug.txt, saved, added, and committed it.
+Then I switched back to the main branch and added a newline.
+Commands used:
+git switch main
+nano bug.txt
+git add bug.txt
+git commit -m "Added newline in bug.txt"
+
+Exercise-08 :
+
+I fixed conflicts and continued with git rebase --continue.
+After finishing, I used git log --oneline to confirm the new history.
+Commands used:
+git switch my-feature-branch
+git rebase hot-bugfix
+
+Exercise-09:
+
+To keep a file locally but remove it from tracking, I used.
+Just like the Linux command rm for removing files and folder git rm is used for the same but in the stage and thus not requiring to unstage the file in order to do the thing.
+Commands used:
+echo "ignored.txt" >> .gitignore
+git add .gitignore
+git rm --cached ignored.txt
+git commit -m "Stop tracking ignored.txt"
+
+Exercise-10:
+
+I used git diff to inspect the changes I made before committing.
+First, I edited the feature.txt file by adding a test line, then I ran git diff to see the unstaged changes.
+After that, I staged the file and used git diff --staged to confirm what would be committed.
+Finally, I committed the changes.
+Commands used:
+nano feature.txt
+git diff
+git add feature.txt
+git diff --staged
+git commit -m "Added test line to feature.txt"
+
+Exercise-11:
+
+In this exercise, I explored the commit history using git log.
+I checked the latest commits, author info, and commit messages.
+I also tried out a more concise view with --oneline and visualized the commit graph.
+Commands used:
+git log
+git log --oneline
+git log --oneline --graph --all
+
+Exercise-12:
+I commit the file with date to 1987 and checked the latest commit.
+Commands used : 
+git commit --amend --no-edit --date="1987-10-26 10:00:00"
+git log -1
 
 
 
