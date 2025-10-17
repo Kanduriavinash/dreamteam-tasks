@@ -4,11 +4,11 @@
 > 'ssh bandit@bandit.labs.overthewire.org -p 2220'.
 > "Enter password"-->will be displayed to take password as a input.
 
-LEVEL 0---->LEVEL 01
-Commands used:
-ls-to list the files in that directory
-cat-to read the content in that particular file.
-Password:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+> LEVEL 0---->LEVEL 01
+> Commands used:
+> - ls-to list the files in that directory
+> - cat-to read the content in that particular file.
+> - Password:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 _______________________________________________________________
 
