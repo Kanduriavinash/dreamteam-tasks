@@ -1,8 +1,8 @@
 ## BANDIT 
 
 > Bandit challenges steps to login to the server:
-> 'ssh bandit@bandit.labs.overthewire.org -p 2220'.
-> "Enter password"-->will be displayed to take password as a input.
+ 'ssh bandit@bandit.labs.overthewire.org -p 2220'.
+ "Enter password"-->will be displayed to take password as a input.
 
 > LEVEL 0---->LEVEL 01
 > Commands used:
@@ -12,67 +12,67 @@
 
 _______________________________________________________________
 
-LEVEL-01---->LEVEL-02
-Commands used:
-ls-to list files
-cat-to show the content in file
-./- : tell the system to look for a file named - in that current directory.
-Password:263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+> LEVEL-01---->LEVEL-02
+> Commands used:
+> - ls-to list files
+> - cat-to show the content in file
+> - ./- : tell the system to look for a file named - in that current directory.
+> - Password:263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 _______________________________________________________________
 
-LEVEL-02 ----> LEVEL-03
-Commands used:
-ls-to list the files
-cat-to read the content
-./--spaces : to look for a file named --spaces 
-\-- to escape the spaces between the file name.
-Password:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+> LEVEL-02 ----> LEVEL-03
+> Commands used:
+> - ls-to list the files
+> - cat-to read the content
+> - ./--spaces : to look for a file named --spaces 
+> - \-- to escape the spaces between the file name.
+> - Password:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 _______________________________________________________________
 
-LEVEL-03 ----> LEVEL-04
-Commands used:
-ls-to list the files
-cat-to read the content
-cd- to go inside the directory
-Password:2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+> LEVEL-03 ----> LEVEL-04
+> Commands used:
+> - ls-to list the files
+> - cat-to read the content
+> - cd- to go inside the directory
+> - Password:2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 _______________________________________________________________
 
-LEVEL-04 ----> LEVEL-05
-Commands used:
-ls-to list the files
-cat-to read the content
-cd- to go inside the directory
-file- to check the data type of the file
-grep- to get a particular(specified) data in that file.
-Password:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+> LEVEL-04 ----> LEVEL-05
+> Commands used:
+> - ls-to list the files
+> - cat-to read the content
+> - cd- to go inside the directory
+> - file- to check the data type of the file
+> - grep- to get a particular(specified) data in that file.
+> - Password:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 _______________________________________________________________
 
-LEVEL-05---->LEVEL-06
-Commands used:
-ls-to list the files
-cat-to read the content
-cd- to go inside the directory
-find-search a specific file or directory.
-. -type f -size 1033c :-means this find command is going to search for a specific file with the size of 1033 bytes
-Password:HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+> LEVEL-05---->LEVEL-06
+> Commands used:
+> - ls-to list the files
+> - cat-to read the content
+> - cd- to go inside the directory
+> - find-search a specific file or directory.
+> - . -type f -size 1033c :-means this find command is going to search for a specific file with the size of 1033 bytes
+> - Password:HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 _______________________________________________________________
 
-LEVEL-06---->LEVEL-07
-Commands used:
-ls-to list the files
-cat-to read the content
-find-allows user to manage files which we dont have access also can visit by find.
-/->start searching from rrot of the directory
--user bandit7->look for files owned by user bandit7
--group bandit6-> look for files which are belong to group bandit6
--size 33c-> looks for a file of size 33bytes
-2>/dev/null->Hides the error messages.
-Password:morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+> LEVEL-06---->LEVEL-07
+> Commands used:
+> -ls-to list the files
+> - cat-to read the content
+> - find-allows user to manage files which we dont have access also can visit by find.
+> - /->start searching from rrot of the directory
+> - -user bandit7->look for files owned by user bandit7
+> - -group bandit6-> look for files which are belong to group bandit6
+> - -size 33c-> looks for a file of size 33bytes
+> - 2>/dev/null->Hides the error messages.
+> - Password:morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 _______________________________________________________________
 
