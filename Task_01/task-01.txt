@@ -1,4 +1,4 @@
-# Heading1 BANDIT
+# BANDIT
 Bandit challenges steps to login to the server:
 'ssh bandit@bandit.labs.overthewire.org -p 2220'.
 "Enter password"-->will be displayed to take password as a input.
@@ -226,7 +226,7 @@ nc localhost 1234 ->nc sending data to local machine port 1234.
 Password:EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 ___________________________________________________________________
 
-## GIT EXERCISES
+# GIT EXERCISES
 
 Exercise-01: master
 
