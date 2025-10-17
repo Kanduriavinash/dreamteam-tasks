@@ -1,4 +1,4 @@
-## BANDIT
+# BANDIT
 Bandit challenges steps to login to the server:
 'ssh bandit@bandit.labs.overthewire.org -p 2220'.
 "Enter password"-->will be displayed to take password as a input.
